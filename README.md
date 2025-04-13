@@ -1,10 +1,14 @@
 # legal-cloud-platform-api
 
-`legal-cloud-platform-api` 是一個基於 Spring Boot 的後端團隊協作專案，與 `legal-cloud-platform-ui` 前端操作介面結合，專門用於提供法律文件檢索、帳戶管理、書籤和螢光筆等功能，旨在建立一個便捷的法律雲平台。
-
-後端功能上，本人負責資料整理，檢索、會員功能相關 API。專案分工與功能介紹，請參考[`法律雲平台`](https://drive.google.com/file/d/1d-QA9C096Mfpb_jreCERc_OvLr8vXjI0/view?usp=sharing)。
+`legal-cloud-platform-api` 是一個基於 Spring Boot 的後端團隊協作專案，與 `legal-cloud-platform-ui` 前端操作介面結合的**法律雲平台**，專門用於提供法律文件檢索、帳戶管理、書籤和螢光筆等功能，旨在建立一個便捷的法律雲平台。
 
 前端操作介面，詳見於 [`legal-cloud-platform-ui`](https://github.com/rikka0823/legal-cloud-platform-ui)。
+
+## Project Structure
+
+後端功能上，本人負責資料整理，檢索、會員功能相關 API。
+
+專案架構、分工與功能介紹，請參考[`法律雲平台`](https://drive.google.com/file/d/1d-QA9C096Mfpb_jreCERc_OvLr8vXjI0/view?usp=sharing)。
 
 ## Key Features
 
