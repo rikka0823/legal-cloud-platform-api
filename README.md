@@ -114,7 +114,7 @@
 - GET /accountSystem/highlighte-already-exists  
   檢查用戶的螢光筆標註是否已存在。請求參數為 email、groupId、id 和 court。返回表示標註是否已存在的 BasicRes。
 
-## 前端應用
+## Frontend Application
 
 前端應用負責提供使用者操作介面，並通過 RESTful API 與後端進行串接。
 
