@@ -32,7 +32,7 @@
 - **Spring Boot Validation**：以 @Valid、@Validated 處理 Exception，並建立 GlobalExceptionHandler，採用 @ExceptionHandler 客製化錯誤、例外返回 JSON 訊息。
 - **MySQL 8.0.40**：關聯式資料庫管理系統，儲存法律條文、用戶等資訊；並結合 Spring Boot 的 @Transactional，處理 ACID 之交易特性。
 - **Caffeine Cache**：透過 Cache 技術，提升常用數據的存取速度。
-- **Springdoc OpenAPI**：用於生成 Swagger UI 文件，詳細描述 API 端點。
+- **SpringDoc OpenAPI**：用於生成 Swagger UI 文件，詳細描述 API 端點。
 - **Spring Mail**：串接 Google 第三方 API，以 Gmail 提供郵件發送功能，用於註冊驗證和密碼重置等場景。
 - **HttpSession**：以 Server 記錄登入時的 Seesion ID 並與資料庫比對是否為有效身分，
 - **MultipartFile**：使用 Spring 的 MultipartFile 處理前端上傳的圖片，並將圖片內容以 BLOB 格式儲存於資料庫中，支援會員頭像圖片上傳與下載 I/O 功能，。
