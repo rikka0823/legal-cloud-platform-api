@@ -27,7 +27,7 @@
 
 - **Java 17**：作為開發語言。
 - **Spring Boot 3.4.0**：作為應用核心框架，簡化開發流程並提升可維護性，並搭配 **Gradle** 進行構建與依賴管理。
-- **Spring Security**：提供應用的安全性功能，如以 bcrypt 將使用者密碼加密安全儲存。
+- **Spring Security**：提供應用的安全性功能，如以 bcrypt 將使用者密碼雜湊後安全儲存。
 - **Spring Data JPA**：以 Hibernate 作為底層邏輯，將 Object 與 MySQL 資料庫進行 ORM 操作，實現資料的 CRUD 和查詢。
 - **Spring Boot Validation**：以 @Valid、@Validated 處理 Exception，並建立 GlobalExceptionHandler，採用 @ExceptionHandler 客製化錯誤、例外返回 JSON 訊息。
 - **MySQL 8.0.40**：關聯式資料庫管理系統，儲存法律條文、用戶等資訊；並結合 Spring Boot 的 @Transactional，處理 ACID 之交易特性。
